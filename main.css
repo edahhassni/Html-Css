@@ -1,0 +1,79 @@
+*{
+     padding: 0;
+     margin: 0;
+
+}
+/* body{
+     font-family:Arial, Helvetica, sans-serif;
+} */
+/* Start Header */
+.header{
+     width: 100%;
+     height:100px;
+     background-color: .f6f6f6;
+
+}
+.header .container{
+     width: 95%;
+     height: 100px;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+}
+.header .container span{
+     width: 50%;
+     line-height: 100px;
+     float: left;
+}
+.header .container img{
+     width: 100px;
+     height:100px;
+     border-radius: 50%;
+     float: right;
+}
+/* End header */
+/* Start Main*/
+.main{
+     width: 100%; 
+     background-color: .f6f6f6;
+     text-align: center;
+}
+.main .container{
+     width: 95%; 
+     margin-left: auto;
+     margin-right: auto; 
+}
+.main .container .text{
+     width: 100%;
+     min-height: 280px;
+     border-radius: 15px; 
+     border: 2px solid rgb(131, 131, 131);
+}
+.container{
+     display: flex;
+     justify-content: space-evenly;
+}
+.container button{
+     width: 45%;
+     margin-left: 10px auto;
+     margin-right: 10px  auto; 
+     border-radius: 15px;
+     border: 0;
+     padding: 15px;
+     margin: 5px 0;
+}
+.remove{
+     background-color: rgb(255, 30, 30);
+     color: white;
+}
+.plye{
+     background-color: rgb(39 ,39 , 39);
+     color: white;
+}
+.title{
+     padding: 10px;
+     border-bottom: 2px solid rgb(131, 131, 131);
+     margin: 8px 0;
+     font-weight: bold;
+}
+/* End Main*/
